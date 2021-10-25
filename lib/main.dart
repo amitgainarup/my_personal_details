@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            'My Personal Data',
+            'My Personal Details',
             style: TextStyle(
               fontSize: 34,
               fontStyle: FontStyle.italic,
