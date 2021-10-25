@@ -9,6 +9,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: Text(
+            'My Personal Data',
+            style: TextStyle(
+              fontSize: 34,
+              fontStyle: FontStyle.italic,
+              color: Colors.black,
+            ),
+          ),
+          backgroundColor: Colors.cyan,
+        ),
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
