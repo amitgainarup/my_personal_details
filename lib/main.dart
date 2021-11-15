@@ -8,14 +8,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text(
-            'My Personal Details',
-            style: TextStyle(
-              fontSize: 34,
-              fontStyle: FontStyle.italic,
-              color: Colors.black,
+          title: Center(
+            child: Text(
+              'My Personal Details',
+              style: TextStyle(
+                fontSize: 34,
+                fontStyle: FontStyle.italic,
+                color: Colors.black,
+              ),
             ),
           ),
           backgroundColor: Colors.cyan,
@@ -33,8 +36,8 @@ class MyApp extends StatelessWidget {
               Text(
                 'Amit Gain',
                 style: TextStyle(
-                  fontFamily: 'Pacifico',
-                  fontSize: 40.0,
+                  fontFamily: 'Shalimar',
+                  fontSize: 50,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
